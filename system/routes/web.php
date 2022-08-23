@@ -37,3 +37,34 @@ Route::get('produk', function () {
 Route::get('detailproduk', function () {
     return view('detailproduk');
 });
+
+
+//admin
+Route::get('AdminBeranda', function () {
+    return view('admin/AdminBeranda');
+});
+
+Route::get('AdminBase', function () {
+    return view('AdminBase');
+});
+
+Route::get('AdminProduk', function () {
+    return view('admin/AdminProduk');
+});
+
+Route::get('AdminKategori', function () {
+    return view('admin/AdminKategori');
+});
+
+Route::get('AdminPromo', function () {
+    return view('admin/AdminPromo');
+});
+
+
+Route::get('AdminPelanggan', function () {
+    return view('admin/AdminPelanggan');
+});
+
+Route::get('AdminSuplier', function () {
+    return view('admin/AdminSuplier');
+});
